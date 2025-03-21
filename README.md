@@ -2,7 +2,9 @@
 
 [![PyPI version](https://badge.fury.io/py/ElliShape.svg)](https://badge.fury.io/py/ElliShape)
 
-A graphical user interface tool for shape analysis using Elliptic Fourier Descriptors (EFD).
+A graphical user interface tool for shape analysis using Elliptic Fourier Descriptors (EFD). 
+
+Additionally, we provide a command-line version 'ellishape_cli' of the software tool for batch processing. (https://github.com/wpwupingwp/ellishape_cli)
 
 ## Description
 A user-friendly software designed to offer improved contour extraction, efficient EFDs calculation, and complete EFD normalization across all basic contour transformations.
