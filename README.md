@@ -31,7 +31,7 @@ Option 2. Install Python (if not using Conda):
     ```
 4. Install the ElliShape package:
     ```Anaconda Prompt
-    pip install  ElliShape
+    pip install ElliShape
     ```
 4. Download the required model weight files:
     ```Anaconda Prompt
@@ -42,11 +42,11 @@ Option 2. Install Python (if not using Conda):
     ElliShape
     ```
 
-#### Direct Installation with Python Environment (Requires Python >= 3.10):
+#### Installation and Usage with Python Environment (Requires Python >= 3.8):
 1. Open the Command Prompt
 2. Install the ElliShape package:
     ```cmd
-    pip install  ElliShape
+    pip install ElliShape
     ```
 3. Download the required model weight files:
     ```cmd
