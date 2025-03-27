@@ -75,6 +75,9 @@ and digitization, such as incomplete edges due to white strips, low
 image contrast, and noises from fragile, overlapping, and damaged
 organs.
 
+![](media/fig1.jpg)
+Figure 1. Software interface.
+
 **Step 1: Image loading**
 
 Click the \'Folders\' button and choose the folder containing your image
@@ -87,7 +90,7 @@ The test images can be found in the \'ElliShape\' folder you downloaded.
 
 ![](media/fig2.jpg)
 
-Figure . Image loading.
+Figure 2. Image loading.
 
 **Step 2.1: Object selection**
 
