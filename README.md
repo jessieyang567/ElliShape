@@ -85,7 +85,7 @@ navigate through the loaded images.
 
 The test images can be found in the \'ElliShape\' folder you downloaded.
 
-![](media/image4.png){width="5.768055555555556in"
+![](media/fig2.jpg){width="5.768055555555556in"
 height="3.170138888888889in"}
 
 Figure . Image loading.
@@ -97,7 +97,7 @@ and right by dragging the slider to quickly locate the object (Fig. 3).
 Object selection is facilitated through two methods: automated
 segmentation and manual polygon selection.
 
-![](media/image8.png){width="5.768055555555556in"
+![](media/fig3.jpg){width="5.768055555555556in"
 height="3.1791666666666667in"}
 
 Figure 3. Object selection.
@@ -109,9 +109,9 @@ click the \'automated segmentation\' button. The segmented object will
 appear in the lower middle and right windows as a binary image (Fig.4),
 enabling direct chain code generation.
 
-![](media/image9.png){width="2.774021216097988in"
+![](media/fig4.jpg){width="2.774021216097988in"
 height="1.5304483814523184in"}
-![](media/image10.png){width="2.785386045494313in"
+![](media/fig5.jpg){width="2.785386045494313in"
 height="1.5338735783027122in"}
 
 Figure 4. Object selection via "automated segmentation".
@@ -124,7 +124,7 @@ Right-clicking to close the polygon and display the selected object in
 the upper middle picture window (Fig. 5). To begin a new selection,
 right-clicking to end the current one.
 
-![](media/image13.png){width="5.768055555555556in"
+![](media/fig6.jpg){width="5.768055555555556in"
 height="3.1777777777777776in"}
 
 Figure 5. Object selection via "Polygon Tool".
@@ -138,9 +138,9 @@ necessary. However, if they do not, it should be utilized.
 An illustration of an image featuring a black background is shown in
 Fig. 6.
 
-![](media/image14.png){width="2.796467629046369in"
+![](media/fig7.jpg){width="2.796467629046369in"
 height="1.5359361329833772in"}
-![](media/image15.png){width="2.8103969816272967in"
+![](media/fig8.jpg){width="2.8103969816272967in"
 height="1.5490004374453192in"}
 
 Figure 6. Color inverting.
@@ -154,9 +154,9 @@ Note: Clicking the \'Image Enhancement\' button multiple times will
 superimpose the enhanced effect. To revert to the original grayscale
 image, click the \'Grayscale Conversion\' button.
 
-![](media/image17.png){width="2.8453674540682417in"
+![](media/fig9.jpg){width="2.8453674540682417in"
 height="1.5675907699037621in"}
-![](media/image19.png){width="2.7822298775153107in"
+![](media/fig10.jpg){width="2.7822298775153107in"
 height="1.5321347331583552in"}
 
 \(2\) the image after using function
@@ -171,7 +171,7 @@ Two methods are available for obtaining the object contour: \'Image
 Binarization\' or \'Edge Detection\', selectable via radio buttons (Fig.
 8). \'Image Binarization\' is the default method for contour extraction.
 
-![](media/image19.png){width="5.768055555555556in"
+![](media/fig11.jpg){width="5.768055555555556in"
 height="3.176388888888889in"}
 
 Figure 8. Two methods for obtaining the object contour.
@@ -215,23 +215,23 @@ image to avoid positional deviations (Fig. 13).
 \(3\) Decide whether to use corrosion, dilation, and editing functions
 based on the specific circumstances.
 
-![](media/image22.png){width="5.768055555555556in"
+![](media/fig12.jpg){width="5.768055555555556in"
 height="3.1743055555555557in"}
 
 Figure 9. Binarization results.
 
-![](media/image24.png){width="2.9691797900262467in"
+![](media/fig13.jpg){width="2.9691797900262467in"
 height="1.634012467191601in"}
-![](media/image26.png){width="3.0050240594925635in"
+![](media/fig14.jpg){width="3.0050240594925635in"
 height="1.653740157480315in"}
 
 Figure 10 Erosion operation. When the prompt words indicate the short
 length of chain code (e.g. "the length is 2"), click the \' Erosion \'
 button and obtain the corrected boundary.
 
-![](media/image29.png){width="2.897668416447944in"
+![](media/fig15.jpg){width="2.897668416447944in"
 height="1.5946587926509186in"}
-![](media/image31.png){width="2.950521653543307in"
+![](media/fig16.jpg){width="2.950521653543307in"
 height="1.6237456255468066in"}
 
 Figure 11. Dilation operation. When the prompt indicates \'chain code is
@@ -239,16 +239,16 @@ not close\' and there are small gaps or holes in the target region
 hindering closed curve formation, click the \'Dilation\' button to close
 the boundary.
 
-![](media/image33.png){width="2.9377055993000876in"
+![](media/fig17.jpg){width="2.9377055993000876in"
 height="1.6135094050743657in"}
-![](media/image35.png){width="2.925518372703412in"
+![](media/fig18.jpg){width="2.925518372703412in"
 height="1.60998687664042in"}
 
 Figure 12. Dilation operation. When prompted that the \'chain code is
 not closed\' and the editing window shows a single pixel point
 interrupting the connecting line at the top edge, clicking \'Dilation\'
 button will close the gap in the boundary.
-![](media/image37.png){width="5.768055555555556in"
+![](media/fig19.jpg){width="5.768055555555556in"
 height="3.1791666666666667in"}
 
 Figure 13. Editing operation. When target object is broken, draw white
@@ -263,7 +263,7 @@ closed, the break location is enlarged in the editing window for user
 edits, followed by clicking the \'Chain Code\' button again until the
 result is correct.
 
-![](media/image39.png){width="5.768055555555556in"
+![](media/fig20.jpg){width="5.768055555555556in"
 height="3.1791666666666667in"}
 
 Figure 14. Successful chain code extraction.
@@ -282,22 +282,22 @@ any contour errors (Fig. 17). Click the \'Chain Code\' button to obtain
 the correct edge contour (green line) and chain code (red line) as shown
 in Fig. 18.
 
-![](media/image41.png){width="5.768055555555556in"
+![](media/fig21.jpg){width="5.768055555555556in"
 height="3.297222222222222in"}
 
 Figure 15. Edge detection method selection.
 
-![](media/image43.png){width="5.768055555555556in"
+![](media/fig22.jpg){width="5.768055555555556in"
 height="3.176388888888889in"}
 
 Figure 16. Threshold adjustment.
 
-![](media/image45.png){width="5.768055555555556in"
+![](media/fig23.jpg){width="5.768055555555556in"
 height="3.1791666666666667in"}
 
 Figure 17. Contour connection.
 
-![](media/image47.png){width="5.768055555555556in"
+![](media/fig24.jpg){width="5.768055555555556in"
 height="3.1777777777777776in"}
 
 Figure 18. Successful chain code extraction.
@@ -324,7 +324,7 @@ Size: input file name_user-defined tag_info.xlsx, Sheet 1
 
 Labeled images: input file name_user-defined tag.png
 
-![](media/image49.png){width="5.768055555555556in"
+![](media/fig25.jpg){width="5.768055555555556in"
 height="3.176388888888889in"}
 
 Figure 19. Size calculation.
@@ -345,22 +345,22 @@ is displayed in Fig. 22. Click the \'Save Curve\' button to choose the
 path for saving the curve (Fig. 23).
 
 <figure>
-<img src="media/image50.png" style="width:5.76806in;height:2.93194in" />
+<img src="media/fig26.jpg" style="width:5.76806in;height:2.93194in" />
 <figcaption><p>Figure 20. EFA interface.</p></figcaption>
 </figure>
 
 <figure>
-<img src="media/image51.png" style="width:5.76806in;height:2.93194in" />
+<img src="media/fig27.jpg" style="width:5.76806in;height:2.93194in" />
 <figcaption><p>Figure 21. EFD calculation.</p></figcaption>
 </figure>
 
 <figure>
-<img src="media/image52.png" style="width:5.76806in;height:2.93194in" />
+<img src="media/fig28.jpg" style="width:5.76806in;height:2.93194in" />
 <figcaption><p>Figure 22. Curve reconstruction.</p></figcaption>
 </figure>
 
 <figure>
-<img src="media/image53.png" style="width:5.76806in;height:3.15833in" />
+<img src="media/fig29.jpg" style="width:5.76806in;height:3.15833in" />
 <figcaption><p>Figure 23. Curve saving.</p></figcaption>
 </figure>
 
