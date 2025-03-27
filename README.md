@@ -85,8 +85,7 @@ navigate through the loaded images.
 
 The test images can be found in the \'ElliShape\' folder you downloaded.
 
-![](media/fig2.jpg){width="5.768055555555556in"
-height="3.170138888888889in"}
+![](media/fig2.jpg)
 
 Figure . Image loading.
 
@@ -97,9 +96,7 @@ and right by dragging the slider to quickly locate the object (Fig. 3).
 Object selection is facilitated through two methods: automated
 segmentation and manual polygon selection.
 
-![](media/fig3.jpg){width="5.768055555555556in"
-height="3.1791666666666667in"}
-
+![](media/fig3.jpg)
 Figure 3. Object selection.
 
 **Method 1: Object selection via "automated segmentation"**
@@ -109,10 +106,8 @@ click the \'automated segmentation\' button. The segmented object will
 appear in the lower middle and right windows as a binary image (Fig.4),
 enabling direct chain code generation.
 
-![](media/fig4.jpg){width="2.774021216097988in"
-height="1.5304483814523184in"}
-![](media/fig5.jpg){width="2.785386045494313in"
-height="1.5338735783027122in"}
+![](media/fig4.jpg)
+![](media/fig5.jpg)
 
 Figure 4. Object selection via "automated segmentation".
 
@@ -124,8 +119,7 @@ Right-clicking to close the polygon and display the selected object in
 the upper middle picture window (Fig. 5). To begin a new selection,
 right-clicking to end the current one.
 
-![](media/fig6.jpg){width="5.768055555555556in"
-height="3.1777777777777776in"}
+![](media/fig6.jpg)
 
 Figure 5. Object selection via "Polygon Tool".
 
@@ -138,11 +132,8 @@ necessary. However, if they do not, it should be utilized.
 An illustration of an image featuring a black background is shown in
 Fig. 6.
 
-![](media/fig7.jpg){width="2.796467629046369in"
-height="1.5359361329833772in"}
-![](media/fig8.jpg){width="2.8103969816272967in"
-height="1.5490004374453192in"}
-
+![](media/fig7.jpg)
+![](media/fig8.jpg)
 Figure 6. Color inverting.
 
 **Step 2.2: Image enhancement and grayscale conversion**
@@ -154,10 +145,8 @@ Note: Clicking the \'Image Enhancement\' button multiple times will
 superimpose the enhanced effect. To revert to the original grayscale
 image, click the \'Grayscale Conversion\' button.
 
-![](media/fig9.jpg){width="2.8453674540682417in"
-height="1.5675907699037621in"}
-![](media/fig10.jpg){width="2.7822298775153107in"
-height="1.5321347331583552in"}
+![](media/fig9.jpg)
+![](media/fig10.jpg)
 
 \(2\) the image after using function
 
@@ -171,8 +160,7 @@ Two methods are available for obtaining the object contour: \'Image
 Binarization\' or \'Edge Detection\', selectable via radio buttons (Fig.
 8). \'Image Binarization\' is the default method for contour extraction.
 
-![](media/fig11.jpg){width="5.768055555555556in"
-height="3.176388888888889in"}
+![](media/fig11.jpg)
 
 Figure 8. Two methods for obtaining the object contour.
 
@@ -215,42 +203,32 @@ image to avoid positional deviations (Fig. 13).
 \(3\) Decide whether to use corrosion, dilation, and editing functions
 based on the specific circumstances.
 
-![](media/fig12.jpg){width="5.768055555555556in"
-height="3.1743055555555557in"}
+![](media/fig12.jpg)
 
 Figure 9. Binarization results.
 
-![](media/fig13.jpg){width="2.9691797900262467in"
-height="1.634012467191601in"}
-![](media/fig14.jpg){width="3.0050240594925635in"
-height="1.653740157480315in"}
+![](media/fig13.jpg)
+![](media/fig14.jpg)
 
 Figure 10 Erosion operation. When the prompt words indicate the short
 length of chain code (e.g. "the length is 2"), click the \' Erosion \'
 button and obtain the corrected boundary.
 
-![](media/fig15.jpg){width="2.897668416447944in"
-height="1.5946587926509186in"}
-![](media/fig16.jpg){width="2.950521653543307in"
-height="1.6237456255468066in"}
-
+![](media/fig15.jpg)
+![](media/fig16.jpg)
 Figure 11. Dilation operation. When the prompt indicates \'chain code is
 not close\' and there are small gaps or holes in the target region
 hindering closed curve formation, click the \'Dilation\' button to close
 the boundary.
 
-![](media/fig17.jpg){width="2.9377055993000876in"
-height="1.6135094050743657in"}
-![](media/fig18.jpg){width="2.925518372703412in"
-height="1.60998687664042in"}
+![](media/fig17.jpg)
+![](media/fig18.jpg)
 
 Figure 12. Dilation operation. When prompted that the \'chain code is
 not closed\' and the editing window shows a single pixel point
 interrupting the connecting line at the top edge, clicking \'Dilation\'
 button will close the gap in the boundary.
-![](media/fig19.jpg){width="5.768055555555556in"
-height="3.1791666666666667in"}
-
+![](media/fig19.jpg)
 Figure 13. Editing operation. When target object is broken, draw white
 line to connect the broken parts by long-pressing the left mouse and
 dragging.
@@ -263,9 +241,7 @@ closed, the break location is enlarged in the editing window for user
 edits, followed by clicking the \'Chain Code\' button again until the
 result is correct.
 
-![](media/fig20.jpg){width="5.768055555555556in"
-height="3.1791666666666667in"}
-
+![](media/fig20.jpg)
 Figure 14. Successful chain code extraction.
 
 **Method 2: Contour extraction via "Edge detection"**
@@ -282,24 +258,16 @@ any contour errors (Fig. 17). Click the \'Chain Code\' button to obtain
 the correct edge contour (green line) and chain code (red line) as shown
 in Fig. 18.
 
-![](media/fig21.jpg){width="5.768055555555556in"
-height="3.297222222222222in"}
-
+![](media/fig21.jpg)
 Figure 15. Edge detection method selection.
 
-![](media/fig22.jpg){width="5.768055555555556in"
-height="3.176388888888889in"}
-
+![](media/fig22.jpg)
 Figure 16. Threshold adjustment.
 
-![](media/fig23.jpg){width="5.768055555555556in"
-height="3.1791666666666667in"}
-
+![](media/fig23.jpg)
 Figure 17. Contour connection.
 
-![](media/fig24.jpg){width="5.768055555555556in"
-height="3.1777777777777776in"}
-
+![](media/fig24.jpg)
 Figure 18. Successful chain code extraction.
 
 **Step** **4: Size calculation and saving**
@@ -324,8 +292,7 @@ Size: input file name_user-defined tag_info.xlsx, Sheet 1
 
 Labeled images: input file name_user-defined tag.png
 
-![](media/fig25.jpg){width="5.768055555555556in"
-height="3.176388888888889in"}
+![](media/fig25.jpg)
 
 Figure 19. Size calculation.
 
